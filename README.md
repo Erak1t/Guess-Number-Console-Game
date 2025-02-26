@@ -21,14 +21,14 @@ To play the game, you will need to have Node.js installed on your machine. You c
    ```
 2.	Install the dependencies:
 (In this case, there are no external dependencies required for the game.)
-  	 ```bash
-  	 npm install
-   	```
+   ```bash
+  npm install
+   ```
 Usage 
 To start playing the game, run the following command in your terminal:
-  	```bash
- 	 node app.js
- 	 ```
+  ```bash
+  node app.js
+```
 he game will prompt you to guess a number between 1 and 100. You will continue making guesses until you guess the correct number. Once you win, the number of attempts will be displayed, and the game will ask if you want to play again.
 
 Game Flow
@@ -37,7 +37,7 @@ Game Flow
 	3.	If your guess is correct, the game will congratulate you and save the results in the gameResults.txt file.
 	4.	You can choose to play again or quit.
 Example Output:
-  	```text
+  ```bash
 	Welcome to the guess number game!
 	Guess the number between 1 and 100: 50
 	Try higher.
@@ -47,4 +47,4 @@ Example Output:
 	Congratulations! you guessed number in 3 attempts.
 	Game is saved.
 	try again? type: yes or no : yes
- 	```
+
